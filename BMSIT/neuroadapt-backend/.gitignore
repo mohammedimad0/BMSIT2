@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Models (large GGUF files)
+models/*.gguf
+models/.gitkeep
+
+# Job artifacts (if any)
+jobs/
+temp/
+*.tmp
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
